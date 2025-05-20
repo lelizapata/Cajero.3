@@ -1,0 +1,74 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+.card-header.bg-custom.text-white.text-center {
+    font-style: normal; /* quita cursiva */
+    font-weight: 1000px;   /* negrita */
+}
+.card-header h3 {
+    font-size: 1.8rem; /* más grande aún */
+}
+.card {
+    border-radius: 24px;
+    height: auto;
+}
+.card-header {
+    border-top-left-radius: 50rem;
+    border-top-right-radius: 42rem;
+}
+.card-shadow .bg-custom {
+    background-color: rgb(197, 33, 197);
+
+}
+.card-body {
+    font-style: oblique;
+}
+.btn-success {
+    background-color: #198754;
+    border: none;
+}
+.bg-custom {
+    background-color: #cc00ff; 
+}
+
+.btn-success:hover {
+    background-color: #2541b0;
+}
+.text-success, .text-danger {
+    font-weight: bold;
+}
+.message {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.375rem;
+}
+.message.success {
+    background-color: #9c2163;
+    color: #0f5132;
+    border: 1px solid #badbcc;
+}
+.message.error {
+    background-color: #f8d7da;
+    color: #842029;
+    border: 1px solid #f5c2c7;
+}
+.admin-link {
+    color: #6c757d; /* gris oscuro (puedes cambiarlo) */
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.admin-link i {
+    color: #cc00ff; /* ícono mismo color */
+}
+
+.admin-link:hover {
+    color: #cc00ff;
+}
+
+.admin-link:hover i {
+    color: #4f20db;
+}
+
